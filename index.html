@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios com HTML+CSS</title>
+    <!--para fazer comentarios nao visiveis-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="conteiner">
+
+    <main>
+    <H1>Formulario de contato</H1>
+    <nav>
+
+    </nav>
+        <!-- post paro oque o usuario veja mas nao seja visto, get o usuario pode ver--> 
+    <form method="post" action="">
+        <label for="nome"> Nome:</label><!--label com referencia da caixa-->
+        <input type="text" id="nome" name="nome" required><!-- name= que usa php, required significa obrigatoriedade -->
+        
+        <label for="email"> Email:</label><!--email do tipo email-->
+        <input type="email" id="email" name="email" required><!-- name= que usa php, required significa obrigatoriedade -->
+        
+        <label for="mensagem">Mensagem:</label><!--label com referencia da caixa-->
+        <textarea name="mensagem" id="mensagem" rows="5" required></textarea><!-- uma area maior pra textos com varias linhas rows=linhas cols= col -->
+
+        <button type="submit">Enviar</button>
+    </form>
+    </main>    
+</div>
+<div class="rodape">
+<footer>
+    <p>@EdnerPaulo</p>
+</footer>
+</div>
+</body>
+</html>

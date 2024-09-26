@@ -1,0 +1,56 @@
+*{
+    margin: 0;/* margim esterna*/
+    padding: 0;/* margim de dentro*/
+    box-sizing: 0;/*as caixas vão ter o mesmo tamanho*/
+/* "*"server para todo o quem tem dentro da pagina*/ 
+}
+body{
+    font-family: 'Times New Roman', Times, serif;/*fonte de todo o corpo*/
+    background-color: aquamarine;/*toda a cor de fundo */
+    display: flex;/*deixa toda a tela responsiva e flexisiva*/
+    justify-content: center;/*todos os conteudos */
+    align-items: center;/*todos os item*/
+    height: 100vh;/*px % ou vh= */
+}
+.conteiner{
+    background-color: rgb(201, 19, 19);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(250, 4, 4, 0.747);
+    width: 300px;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, textarea{
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aquamarine;
+}
+footer{
+    padding: 20px;
+    margin-block-end: auto;
+         
+    
+}
